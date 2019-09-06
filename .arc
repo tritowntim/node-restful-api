@@ -1,11 +1,15 @@
+@aws
+bucket node-restful-api
+
 #
 # Warning! Do Not Edit
 # --------------------
 # This is a generated file and will be overwritten
 #
 @app
-begin-app
+node-restful-api
 
+@static
 @http
 get /
 get /api/cats
